@@ -34,7 +34,9 @@
 .contact-left h1{
     font-size: 80px;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 0.36%, #B415FF);
+    /* background: linear-gradient(270deg, #DF8908 0.36%, #B415FF); */
+    /* background: #00FF9C; */
+    background: linear-gradient(90deg, #2A8A9B 8%,#57C785 52%, #EDDD53 93% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -91,20 +93,35 @@
     font-family: Outfit;
     font-size: 20px;
 }
-.contact-submit{
+/* .contact-submit{
     border: none;
     color: white;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1); 
+    text-decoration: none;
     font-size: 22px;
     padding: 20px 60px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
+} */
+.contact-submit{
+    padding: 20px 60px;
+    border-radius: 50px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #FFF;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    transition: 0.05s;
+    background: none;
 }
 .contact-submit:hover{
     transform: scale(1.05);
     transition: 0.3s;
+    /* background: #00FF9C; */
+    background: linear-gradient(90deg, #2A8A9B 8%,#57C785 52%, #EDDD53 93% );
+    border: 2px solid green;
 }
 
 @media(max-width:768px){

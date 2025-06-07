@@ -4,31 +4,28 @@
     justify-content: space-between;
     margin: 20px 100px;
 }
+
+
 .my-name{
-    font-size: 60px;
-    font-weight: 800;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
-    /* background: linear-gradient(90deg,#1971cf 0%,#57c785 50%,#eddd53 100%); */
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: 0.3s;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 2px solid green;
+    font-size: 50px;
+    text-decoration: none;
+    /* background: #00FF9C; */
+    background: linear-gradient(90deg, #2A8A9B 8%,#57C785 52%, #EDDD53 93% );
+    color: black;
+    cursor: pointer;
+    transition: 0.05s;
+    
+;
 }
 
   
 .my-name:hover{
     transform: scale(1.05);
 }
-/* .logo{
-    height: 100px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-    transition: 0.05s;
-} */
-/* .logo:hover{
-    transform: scale(1.05);
-} */
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -39,13 +36,17 @@
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    border: 2px solid #fff;
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
 }
 .nav-connect:hover{
     transform: scale(1.05);
+    /* background: #00FF9C;  */
+    background: linear-gradient(90deg, #2A8A9B 8%,#57C785 52%, #EDDD53 93% );
+    border: 2px solid green;
+    
 }
 .nav-menu li{
     display: flex;

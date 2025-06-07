@@ -37,7 +37,8 @@
 
 .mywork-container img:hover{
     transform: scale(1.10);
-    border: 2px solid #ff00ff;
+    /* border: 2px solid #ff00ff; */
+    border: 2px solid #00FF9C;
     border-radius: 10px;
     transition: 0.3s;
 }
@@ -56,6 +57,9 @@
 .mywork-showmore:hover{
     gap: 30px;
     transition: 0.6s;
+    /* background: #00FF9C; */
+    background: linear-gradient(90deg, #2A8A9B 8%,#57C785 52%, #EDDD53 93% );
+    border: 2px solid green;
 }
 
 @media(max-width:768px){

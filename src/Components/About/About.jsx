@@ -3,24 +3,30 @@ import { SiJavascript, SiCplusplus } from 'react-icons/si';
 
 import React from 'react'
 import './About.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile_img.svg'
+import theme_pattern_teal from '../../assets/theme_pattern_teal.svg'
+
+import my_image from '../../assets/my_image.jpeg'
 
 const About = () => {
   return (
     <div id='about' className='about'>
        <div className='about-title'>
             <h1>About me</h1>
-            <img src={theme_pattern} alt="" />
+            <img src={theme_pattern_teal} alt="" />
        </div>
        <div className="about-sections">
             <div className="about-left">
-                <img src={profile_img} alt="" />
+                <img src={my_image} alt="" /> 
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Creative front-end developer passionate about building responsive, user-friendly interfaces using HTML, CSS, JavaScript, React Js, and modern frameworks</p>
-                    <p>Passionate front-end developer driven by design and code, crafting seamless, engaging user experiences with modern tools and technologies</p>
+                    <p>Passionate Software Developer skilled in crafting responsive, user-centric interfaces using HTML, CSS, JavaScript, 
+                    and React.js, while also building robust backend systems with Spring Boot, and MySQL. Driven by both design and 
+                    logic, I enjoy creating seamless, high-performance applications that balance modern aesthetics with clean, maintainable code. 
+                    With a strong understanding of full-stack development and a focus on user experience, I strive to deliver solutions 
+                    that are not only functional but engaging and scalable.
+                    </p>
+                    
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p className='skills'><FaHtml5 size="20px" color="#E34F26"/>HTML</p><hr style={{width:"70%"}}/></div>

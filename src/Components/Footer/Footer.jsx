@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer-top">
             <div className="footer-top-left">
                 <h1>Janmjay Prajapati</h1>
-                <p>Frontend Developer | India</p>
+                <p>Software Developer | India</p>
             </div>
             
 
@@ -24,7 +24,7 @@ const Footer = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/janmjay-prajapati-b7b96524a/" target="_blank" rel="noopener noreferrer" className="social-link">
                         <span>LinkedIn</span>
-                        {/* <img src={linkedin_icon} alt="LinkedIn" /> */}
+                        
                         <FaLinkedin color='#0077B5 ' size={24}/>
                     </a>
                     <a href="https://leetcode.com/u/Janmjay_Prajapati/" target="_blank" rel="noopener noreferrer" className="social-link">
